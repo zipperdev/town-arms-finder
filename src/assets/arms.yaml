@@ -1,0 +1,236 @@
+# < 작성방법 >
+# 카테고리:
+#   - 아이템명
+#     \설명 (필수 아님)\
+
+총:
+    돌격 소총:
+        - AK-47
+        - AS ASL
+        - AUG A3
+        - FAMAS F1
+        - G36C
+        - HK416
+        - Honey Badger
+        - L85A2
+        - M16A3
+        - M4
+        - QBZ-95
+        - SG-552 Commando
+        - Groza-4
+        - MCX
+    전투 소총:
+        - G3A3
+        - RFB
+        - FN FAL
+        - SCAR-H
+    기관단총:
+        - MAC-10
+        - MP40
+        - MP5K
+        - MP7
+        - MPX
+        - P90
+        - PPSH-41
+        - SR-2
+        - TMP
+        - UMP-45
+        - Uzi
+        - KRISS Vector
+        - M1921 Thompson
+        - PP2000
+        - Scorpion EVO
+    경기관총:
+        - Lewis
+        - MG4
+        - RPK-74M
+    저격 소총:
+        - CheyTac M200
+        - Dragunov SVD
+        - JNG-90
+        - L96A1
+        - MK-11
+        - QBU-88
+        - Steyr Elite
+        - Barrett M82A3
+        - M110
+        - Walther WA2000
+    소총:
+        - M1 Garand
+        - Model 1777 Musket
+        - SKS
+    권총:
+        - CZ-75
+        - Desert Eagle
+        - Five SeveN
+        - Glock-18C
+        - M1911
+        - M9
+        - Magnum Revolver
+        - Makarov
+        - MP443
+        - P226
+        - Saddlegun
+        - USP Match
+        - Cowboy Gun
+        - Luger P08
+        - UNICA 6
+    산탄총:
+        - Remington 870
+        - Double Barrel
+        - Ithaca 37 Stakeout
+        - M26 MASS
+        - Saiga 12K
+        - SPAS-12
+        - UTS-15
+    특수:
+        - Tumor Growth
+        - Classic Pistol
+        - Fail
+        - Nail Gun
+
+부착물:
+    조준경:
+        - Acog Scope
+          \[4배율] 수직,수평 반동 줄여줌\
+        - AEMS Sight
+          \[1.5 배율] 준수\
+        - CL6X Sight
+          \[6배율] 수직,수평 반동 줄여줌\
+        - Coyote Sight
+          \[1.5배율] 깔삼\
+        - EOTech Sight
+          \[2배율] 조준속도 빠름\
+        - Holosun 507c
+          \[1.5 배율]\
+        - Hunting Scope
+          \[10배율] 수평,수직 반동 크게 줄여줌 조준속도 매우 느림\
+        - JGM4 Sight
+          \[4배율] 수직,수평 반동 줄여줌\
+        - Kobra Sight
+          \[1.5배율]\
+        - M145 Sight
+          \[4배율] 수직,수평 반동 줄여줌\
+        - Professional
+          \cope) [20배율] 수직,수평 반동 크게 줄여줌 조준속도 어어어엄청 느림\
+        - PSO-1 Scope
+          \[8배율] 수직,수평 반동 줄여즘 조준속도 매우 느으으림\
+        - Reflex Sight
+          \[1.75배율] 조준속도 매우 빠름\
+        - SRS Sight
+          \[1.5배율] 준수\
+    그립:
+        - Angled Grip
+          \모든 반동 줄여줌. 정확도 50% 증가.\
+        - Bipod
+          \수평 반동 강하게 줄여줌. 정확도 75% 증가. (무거움)\
+        - DD Grip
+          \수직 반동 강하게 줄여줌. 수평 증가 정확도 저하. (조준속도 느림)\
+        - Ergo Grip
+          \수직 반동을 크게 줄여주지만 수평 크게 증가 정확도 증가 (조준속도 느림)\
+        - Folding Grip
+          \수직 반동을 줄여주고 수평이 크게 감소 정확도 저하\
+        - MOE Grip
+          \수직 반동을 크게 줄여주지만 수평이 크게 증가 정확도 저하 (조준속도 느림)\
+        - RSB Grip
+          \수직 반동 줄여주고 수평 증가 정확도 저하 (조준속도 살짝 빠름)\
+        - SE Elite Grip
+          \수직 반동 줄여주고 수평 크게 감소 정확도 굿 (개쩌는 그립)\
+        - Skeleton Grip
+          \수직 반동 줄여주고 수평 크게 감소 (조준속도 빠름)\
+        - Strike Grip
+          \수평 반동을 크게 줄여줌 정확도 매우 준수\
+    총구:
+        - Compensator
+          \수직반동 줄여주고 수평반동 크게 감소시킴 정확도 25% 증가\
+        - Flash Hider
+          \수직, 수평 반동을 줄여주고 정확도 10% 증가 (시야방해를 하는 총구 앞에서 나오는 불빛을 가려줌)\
+        - Heavy Suppressor
+          \수직, 수평 반동을 줄여줌 정확도 30% 증가 (소음 효과 75%, 총알 속도 25% 저하)\
+        - Muzzle Brake
+          \수직, 수평 반동 조금 더 줄여주고 정확도 25% 증가 (성능이 준수함)\
+        - Oil Filter
+          \수직, 수평 반동을 크게 줄여줌 정확도 저하 (소음 효과 80%, 총알 속도 40% 저하, 장전하는 시간이 느려지고 작용하고 조준하는 시간이 느려짐)\
+        - Osprey Suppressor
+          \수직, 수평 반동을 아주 조금 줄여줌 정확도 20% 증가 (소음 효과 70%, 총알 속도 20% 저하)\
+        - Short Suppressor
+          \수직, 수평 반동 줄여줌 정확도 10% 증가 (소음 효과 30%, 총알 속도 20% 저하)\
+        - SLR Compensator
+          \수직 반동을 아주 조금 줄여주지만 수평반동을 크게 줄여줌 정확도 25% 증가\
+        - Suppressor
+          \수직, 수평 반동 조금 줄여줌 정확도 10% 증가 (소음 효과 50%, 총알 속도 15% 저하)\
+        - TAA Muzzle Brake
+          \수직, 수평 반동 줄여줌 정확도 50% 증가 (장전하는 시간이 매우 빨라짐, 성능 매우 준수)\
+        - Wide Choke
+          \전체 반동이 줄어들지만 정확도가 쓰래기가 됨 (소음이 커지고 범위가 줄어듬, 샷건 전용)\
+    스톡:
+        - Extended Stock
+          \수직, 수평 반동을 매우 크게 감소시킴 정확도 50% 증가 (장전속도 느려짐)\
+    기타:
+        - Red Laser
+          \정확도 10% 증가\
+        - Blue Laser
+          \정확도 10% 증가\
+        - Green Laser
+          \정확도 10% 증가\
+        - Flashlight
+          \불빛\
+        - NGAL
+          \정확도 10% 증가\
+        - Range Finder
+          \정확도 10% 증가 (게임패스)\
+
+기타:
+    - Balaclava
+      \마스크다. 쓰고있는동안 자신의 아이디를 숨길 수 있다\
+    - Ballistics Helmet
+      \다른 방어구 보다 성능이 좋다, 다만 앞부분 밖에 방어 못한다(50 방어)\
+    - Ballistics Vest
+      \다른 방어구 보다 성능이 좋다(65 방어)\
+    - Bandage
+      \천천히 힐한다, 하지만 골절은 치료 불가\
+    - Defibrillator
+      \재세동기다. 기절한 타인을 일으킬 수 있다\
+    - Fire axe
+      \근접무기\
+    - Gas Mask
+      \가스로부터 보호\
+    - Hammer
+      \근접무기\
+    - Laptop
+      \드론을 날린다\
+    - Mask
+      \장식이다\
+    - Medkit
+      \자신 또는 아군을 힐한다\
+    - NV Goggles
+      \어두운곳에서 볼수 있다\
+    - Pickaxe
+      \근접무기\
+    - Wrench
+      \방어구을 수리한다\
+    - Riot Shield
+      \방패다 권총, 기관단총와 같이 쓰는것이 가능하다\
+    - Shovel
+      \근접 무기\
+
+아머:
+    - Britan
+    - COM
+    - FBI
+    - Ghillie
+    - GRU
+    - HCS
+    - Patriot
+    - Prussia
+    - Redcoat
+    - RGF
+    - Riot
+    - Robes
+    - Robes2
+    - SAS
+    - Slav
+    - SWAT
+    - Tenor
+    - VDV
+    - Rusky
