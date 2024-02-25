@@ -28,7 +28,7 @@ const matchItem = (item: string, query: string) => {
 
     let isMatch = false;
     for (const slug of slugs.values()) {
-        if (item.toLowerCase().includes(slug)) {
+        if (item.toLowerCase().includes(slug.toLowerCase())) {
             isMatch = true;
             break;
         }
