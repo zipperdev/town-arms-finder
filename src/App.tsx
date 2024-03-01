@@ -27,7 +27,7 @@ const App: Component = () => {
     const onCategoryClick = (category: string) => setQuery(category);
 
     return (
-        <div id="content" class="w-full h-full max-w-[48rem] shadow-xl">
+        <div id="content" class="w-full min-h-full max-w-[48rem] shadow-xl">
             <header
                 class={`sticky top-0 bg-white px-14 pt-10 pb-5 transition-shadow ${
                     scroll.y > 8 ? "shadow-lg" : ""
