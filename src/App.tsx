@@ -45,7 +45,7 @@ const App: Component = () => {
                 id="content"
                 class="hidden min-h-full w-full max-w-[48rem] shadow-xl min-[260px]:block">
                 <header
-                    class={`sticky top-0 bg-white bg-opacity-80 px-6 pb-5 pt-10 backdrop-blur-lg transition-shadow min-[420px]:px-14 ${
+                    class={`sticky top-0 bg-white px-6 pb-5 pt-10 transition-shadow min-[420px]:px-14 ${
                         scroll.y > 10 ? "shadow-lg" : ""
                     }`}>
                     <div class="mb-5 border-b-2 border-gray-100 pb-4">
