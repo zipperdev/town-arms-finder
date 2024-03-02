@@ -63,11 +63,11 @@ const App: Component = () => {
                             value={query()}
                             onInput={e => setQuery(e.target.value)}
                             placeholder="검색어 입력"
-                            class="h-10 w-full rounded-sm bg-gray-100 px-3 placeholder-zinc-400"
+                            class="h-10 w-full rounded-sm bg-gray-100 pl-3 pr-8 placeholder-zinc-400"
                         />
                         <button
                             onClick={onResetClick}
-                            class="absolute right-2 top-1/2 -translate-y-1/2">
+                            class="absolute right-1 top-1/2 -translate-y-1/2 p-1">
                             <IoCloseCircleOutline
                                 size={18}
                                 class="justify-center text-zinc-600"
