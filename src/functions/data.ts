@@ -1,16 +1,18 @@
-export const compileYaml = (obj: Record<string, any>, slugs?: string) => {
+type YamlObject = { [key: string]: string[] | YamlObject };
+
+export const compileYaml = (obj: YamlObject, slugs?: string) => {
     let items: string[] = [];
     for (const [key, value] of Object.entries(obj)) {
         if (Array.isArray(value)) {
             // Items
             value.forEach((item: string) =>
-                items.push(`${slugs ? `${slugs} ` : ""}${key} \\${item}`)
+                items.push(`${slugs ? `${slugs} ` : ""}${key} \\${item}`),
             );
         } else {
             // Group
             const childItems = compileYaml(
                 value,
-                `${slugs ? `${slugs} ` : ""}${key}`
+                `${slugs ? `${slugs} ` : ""}${key}`,
             );
             items = items.concat(childItems);
         }
@@ -31,10 +33,10 @@ export const decomposeItem = (item: string) => {
 export const matchItem = (item: string, query: string) => {
     const slugs = query.split(" ");
 
-    let isMatch = false;
+    let isMatch = true;
     for (const slug of slugs.values()) {
-        if (item.toLowerCase().includes(slug.toLowerCase())) {
-            isMatch = true;
+        if (!item.toLowerCase().includes(slug.toLowerCase())) {
+            isMatch = false;
             break;
         }
     }

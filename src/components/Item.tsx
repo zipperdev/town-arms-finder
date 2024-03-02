@@ -16,7 +16,7 @@ const Item: Component<Props> = ({
     onCategoryClick,
 }) => {
     const [favorite, setFavorite] = createSignal(
-        getStorage(name) ? true : false
+        getStorage(name) ? true : false,
     );
 
     const onFavoriteClick = () => {
@@ -25,21 +25,20 @@ const Item: Component<Props> = ({
         } else {
             setStorage(name, "1");
         }
-        setFavorite((prev) => !prev);
+        setFavorite(prev => !prev);
     };
 
     return (
-        <div class="flex px-14 py-3 odd:bg-white even:bg-zinc-50 justify-between items-center">
+        <div class="flex items-center justify-between px-6 py-3 odd:bg-white even:bg-zinc-50 min-[420px]:px-14">
             <div>
                 <h3 class="text-2xl font-semibold">{name}</h3>
                 <p class="text-lg">{desc}</p>
-                <div class="flex space-x-2 my-1">
+                <div class="my-1 flex space-x-2">
                     <For each={categories}>
-                        {(category) => (
+                        {category => (
                             <p
-                                class="bg-sky-200 px-2 py-1 rounded cursor-pointer text-zinc-900 hover:ring-1"
-                                onClick={() => onCategoryClick(category)}
-                            >
+                                class="cursor-pointer rounded bg-sky-200 px-2 py-1 text-zinc-900 hover:ring-1"
+                                onClick={() => onCategoryClick(category)}>
                                 {category}
                             </p>
                         )}
@@ -48,8 +47,7 @@ const Item: Component<Props> = ({
             </div>
             <button
                 onClick={onFavoriteClick}
-                class="p-2 text-amber-500 transition-transform hover:scale-110"
-            >
+                class="-mr-2 p-2 text-amber-500 transition-transform hover:scale-110">
                 {favorite() ? (
                     <AiFillStar size={24} />
                 ) : (
